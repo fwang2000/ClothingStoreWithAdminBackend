@@ -1,0 +1,310 @@
+body {
+
+	margin: 0 auto;
+	height: 100vh;
+	display: grid;
+	grid-template-columns: 3fr 6fr;
+
+}
+
+@font-face {
+
+	font-family: navFont;
+	src: url(./fonts/navtitle.ttf);
+}
+
+@font-face {
+
+	font-family: title;
+	src: url(./fonts/title.ttf);
+}
+
+.header {
+
+	font-family: title;
+	font-size: 3.5em;
+	margin-top: 1em;
+}
+
+.header #i {
+
+	color: #94C5CC;
+}
+
+.subtitle {
+
+	font-family: Palatino Linotype;
+	letter-spacing: 2.5px;
+}
+
+.container {
+
+	display: relative;
+	text-align: center;
+	border: solid 5px #1B264F;
+	margin: 10px;
+	background: #fff;
+}
+
+.navbar {
+
+	font-family: navFont;
+	font-size: 2.5em;	
+}
+
+.navbar a:link {
+
+	color: #000;
+	text-decoration: none;
+	-o-transition:.5s;
+	-ms-transition:.5s;
+	-moz-transition:.5s;
+	-webkit-transition:.5s;
+
+    transition:.3s;
+
+}
+
+.navbar a:visited {
+
+	color: #000;
+}
+
+.navbar a:hover {
+
+	color: #94C5CC;
+}
+
+.navbar ul{
+
+	display: inline-block;
+	list-style: none;
+	padding: 0px;
+	text-align: center;
+}
+
+.navbar li {
+
+	margin: 0 0 0.3em 0;
+}
+
+#admin_login {
+
+	text-decoration: underline;
+	font-family: Georgia;
+	font-size: 2.5vh;
+	margin: 0 auto;
+	padding-top: 8px;
+	padding-bottom: 0;
+}
+
+.showcase {
+
+	display: inline-block;
+	height: 100vh;
+	width:100%;
+	text-align: center;
+
+	background-image: url(./images/showcase.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+
+h1 {
+
+	margin-top: 100px;
+	
+}
+
+.item_wrapper {
+
+	margin-top: 30px;
+	display: inline-grid;
+	grid-template-columns: repeat(3, 200px);
+	grid-gap: 50px;
+}
+
+.mens_feature {
+
+	animation: fadein 4s;
+}
+
+#men_item {
+
+	height: 80vh;
+	width: 100%;
+	border: solid 5px #1B264F;
+	background-image: url(./images/blackshirt1.jpeg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#men_item:hover {
+
+	background-image: url(./images/blackshirt2.jpg);
+	background-size: cover;
+	background-position: left;
+	background-repeat: no-repeat;
+}
+
+.womens_feature {
+
+	opacity: 0;
+	animation: fadein 4s;
+	animation-delay: 1s;
+	animation-fill-mode: forwards;
+}
+
+#women_item {
+
+	height: 80vh;
+	width: 100%;
+	border: solid 5px #1B264F;
+	background-image: url(./images/whitedress1.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#women_item:hover {
+
+	background-image: url(./images/whitedress2.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#accessory {
+
+	opacity: 0;
+	animation: fadein 4s;
+	animation-delay: 2s;
+	animation-fill-mode: forwards;
+	height: 70vh;
+	width: 100%;
+	display: grid;
+	grid-template-rows: 1fr 1fr;
+	grid-row-gap: 37px;
+}
+
+#acc1 {
+
+	border: solid 5px #1B264F;
+	height: 30vh;
+	background-image: url(./images/bag.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#acc1:hover {
+
+	background-image: url(./images/bag2.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#acc2 {
+
+	border: solid 5px #1B264F;
+	height: 30vh;
+	background-image: url(./images/shoe1.jpeg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#acc2:hover {
+
+	background-image: url(./images/shoe2.jpeg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.feature_button {
+
+	background-color: #94C5CC;
+	border: none;
+	color: white;
+	font-family: title;
+	padding: 8px 32px;
+	margin-top: 10px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 30px;
+}
+
+.feature_button:hover {
+
+	cursor: pointer;
+}
+
+@keyframes fadein {
+    from { 
+
+    	opacity: 0;
+    	transform: translate3d(0, 30px, 0); 
+    }
+
+    to   { 
+
+    	opacity: 1; 
+    	transform: translate3d(0, 0, 0);
+    }
+}
+
+@keyframes rotate {
+
+	from {
+
+	}
+
+	to {
+
+		transform: rotate(45deg);
+	}
+}
+
+@media only screen and (max-aspect-ratio: 4/3) {
+
+	body {
+
+		display: flex;
+		background-image: url(./images/showcase.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center center;
+		align-content: center;
+		justify-content: center;
+	}
+
+	.container {
+
+		background: #fff;
+		width: 60vw;
+		height: 60vh;
+		font-size: 1.5vh;
+		text-align: center;
+		margin: auto;
+		align-content: center;
+	}
+
+	.header {
+
+		font-size: 6vh;
+	}
+
+	.container .header .subtitle {
+
+		font-size: 6vh;
+	}
+
+	.showcase {
+
+		display: none;
+	}
+}

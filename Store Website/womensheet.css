@@ -1,0 +1,304 @@
+@font-face {
+
+	font-family: mensTitle;
+	src: url(./fonts/menstitle.ttf);
+}
+
+@font-face {
+
+	font-family: collection;
+	src: url(./fonts/summercollection.ttf);
+}
+
+@font-face {
+
+	font-family: navFont;
+	src: url(./fonts/navtitle.ttf);
+}
+
+@font-face {
+
+	font-family: title;
+	src: url(./fonts/title.ttf);
+}
+
+body {
+
+	margin: 0 auto;
+	display: block;
+	overflow-x: hidden;
+}
+
+.top {
+
+	height: 70px;
+	padding-left: 15px;
+	display: flex;
+	align-items: center;
+
+	position: absolute;
+	width: 97.5vw;
+	max-width: 100%;
+	overflow-x: hidden;
+	z-index: 1;
+}
+
+.top #home {
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 3px;
+	color: black;
+	font-family: title;
+	font-size: 24px;
+	font-weight: bold;
+	width: 50px;
+	height: 47px;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 50%;
+	border-color: black;
+}
+
+.top #home a {
+
+	text-decoration: none;
+	color: black;
+}
+
+.top .container {
+
+	display: flex;
+	align-items: center;
+
+	position: absolute;
+	right: 50px;
+	column-gap: 15px;
+
+	font-size: 26px;
+	font-family: navFont;
+	letter-spacing: 3px;
+}
+
+.top .container a {
+
+	color: black;
+	text-decoration: none;
+	-o-transition:.5s;
+	-ms-transition:.5s;
+	-moz-transition:.5s;
+	-webkit-transition:.5s;
+
+    transition:.3s;
+}
+
+.top .container a:visited {
+
+	color: black;
+}
+
+.top .container a:hover {
+
+	color: white;
+}
+
+#showcase {
+
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+
+	line-height: 40px;
+	height: 100vh;
+	background-image: url(./images/womensbackground.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
+	opacity: 90%;
+}
+
+#showcase .s_text {
+
+	margin: 0 auto;
+	vertical-align: middle;
+	opacity: 100%;
+	color: white;
+	padding: 20px 40px;
+	background-color: rgba(128, 128, 128, 0.5);
+}
+
+#showcase .s_text #title {
+
+	font-size: 16px;
+	font-family: Palatino Linotype;
+	letter-spacing: 2px;
+	word-spacing: 3px;
+
+}
+
+#showcase .s_text #collection {
+
+	font-size: 24px;
+	font-family: collection;
+	letter-spacing: 4px;
+	word-spacing: 6px;
+}
+
+#bottom {
+
+	position: absolute;
+	height:75px;
+	width: 100vw;
+	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+	bottom: 0;
+
+}
+
+#grid {
+
+	display: block;
+	padding-bottom: 50px;
+}
+
+#grid .tabs .light_blue {
+
+	background-color: lightblue;
+	color: white;
+	outline: none;
+}
+
+#grid #bottoms {
+
+	display: none;
+}
+
+#grid #accessories {
+
+	display: none;
+}
+
+#grid .tabs {
+
+	margin: auto;
+	width: 70%;
+	padding-top: 20px;
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	padding-bottom: 10px;
+}
+
+#grid .tabs button {
+
+	padding: 0.5em;
+	border-radius: 5px;
+	background: none;
+	border: none;
+	color: darkgrey;
+	font: 'Segoe UI', sans-serif;
+	font-weight: bold;
+}
+
+#grid .tabs button:active {
+
+	outline: none;
+}
+
+#grid .tabs button:hover:not(.light_blue) {
+
+	animation: fadegrey 0.3s;
+	animation-fill-mode: forwards;
+}
+
+#grid .tab {
+
+	display: grid;
+	grid-template-columns: 1fr 3fr 3fr 3fr 1fr;
+	grid-column-gap: 20px;
+}
+
+#grid .tab div {
+
+	padding: 15px 0 5px 0;
+	text-align: center;
+}
+
+#grid .tab .clothing {
+
+	width: 100%;
+	height: 300px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#grid #tops #dress {
+
+	background-image: url(./images/dress.jpg);\
+}
+
+#grid #tops #vest {
+
+	background-image: url(./images/vest.jpg);
+}
+
+#grid #tops #crop {
+
+	background-image: url(./images/crop.jpg);
+}
+
+#grid #bottoms #wideleg {
+
+	background-image: url(./images/wideleg.jpg);
+}
+
+#grid #bottoms #skirt {
+
+	background-image: url(./images/skirt.jpg);
+}
+
+#grid #bottoms #sweatpants {
+
+	background-image: url(./images/sweatpants.jpg);
+}
+
+#grid #accessories #bracelet {
+
+	background-image: url(./images/bracelet.jpg);
+}
+
+#grid #accessories #shoes {
+
+	background-image: url(./images/highshoes.jpg);
+}
+
+#grid #accessories #bag {
+
+	background-image: url(./images/bag2.jpg);
+}
+
+#grid .itemtitle {
+
+	font-family: collection;
+	font-size: 22px;
+	letter-spacing: 3px;
+}
+
+#grid .price {
+
+	font-family: Segoe UI;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#end {
+
+	font-family: collection;
+	font-size: 18px;
+	text-align: center;
+	letter-spacing: 2px;
+	word-spacing: 5px;
+	padding-bottom: 50px;
+}

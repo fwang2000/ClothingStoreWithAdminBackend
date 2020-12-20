@@ -1,0 +1,68 @@
+body {
+
+	padding-top: 20px;
+	text-align: center
+}
+
+body button:active {
+
+	outline: none;
+}
+
+#name {
+
+	font-family: Segoe UI;
+	font-size: 20px;
+	padding-bottom: 20px;
+}
+
+#dropdown, #change_button {
+
+	border: none;
+	width: 16px;
+	height: 16px;
+	background: url(./images/downarrow.png) no-repeat bottom;
+	background-size: 8px;
+	outline: none;
+}
+
+#info {
+
+	padding: 10px 40px;
+ 	display: none;
+
+ 	text-align: left;
+}
+
+#info .item {
+
+	padding-left: 30px;
+}
+
+#pass_change {
+
+	padding: 20px 0 10px 0;
+}
+
+#pform {
+
+	text-align: left;
+	display: none;
+	padding-left: 20px;
+}
+
+#pform input {
+
+	margin: 10px 0;
+}
+
+#pform button {
+
+	margin-left: 100px;
+	margin-top: 20px;
+}
+
+.error {
+
+	padding: 20px 0;
+}

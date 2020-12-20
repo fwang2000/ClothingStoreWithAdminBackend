@@ -1,0 +1,160 @@
+body {
+
+	margin: 0 auto;
+	height: 100vh;
+	display: grid;
+	grid-template-columns: 3fr 6fr;
+	background-image:  url(./images/showcase.jpg);
+	background-size: 66.5%;
+	background-repeat: no-repeat;
+	background-position: right bottom;
+
+
+}
+
+@font-face {
+
+	font-family: navFont;
+	src: url(./fonts/navtitle.ttf);
+}
+
+@font-face {
+
+	font-family: title;
+	src: url(./fonts/title.ttf);
+}
+
+.header {
+
+	font-family: title;
+	font-size: 3.5em;
+	margin-top: 1em;
+}
+
+.header #i {
+
+	color: #94C5CC;
+}
+
+.subtitle {
+
+	font-family: Palatino Linotype;
+	letter-spacing: 2.5px;
+}
+
+.container {
+
+	display: relative;
+	text-align: center;
+	border: solid 5px #1B264F;
+	margin: 10px;
+	background: #fff;
+}
+
+.navbar {
+
+	font-family: navFont;
+	font-size: 2.5em;	
+}
+
+.navbar a:link {
+
+	color: #000;
+	text-decoration: none;
+	-o-transition:.5s;
+	-ms-transition:.5s;
+	-moz-transition:.5s;
+	-webkit-transition:.5s;
+
+    transition:.3s;
+
+}
+
+.navbar a:hover {
+
+	color: #94C5CC;
+}
+
+.navbar a:visited {
+
+	color: #000;
+}
+
+.navbar ul{
+
+	display: inline-block;
+	list-style: none;
+	padding: 0px;
+	text-align: center;
+}
+
+.navbar li {
+
+	margin: 0 0 0.75em 0;
+}
+
+@keyframes fadein {
+    from { 
+
+    	opacity: 0;
+    	transform: translate3d(0, 10px, 0); 
+    }
+
+    to   { 
+
+    	opacity: 1; 
+    	transform: translate3d(0, 0, 0);
+    }
+}
+
+@keyframes rotate {
+
+	from {
+
+	}
+
+	to {
+
+		transform: rotate(45deg);
+	}
+}
+
+@media only screen and (max-width: 1025px) {
+
+	body {
+
+		display: flex;
+		background-image: url(./images/showcase.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center center;
+		align-content: center;
+		justify-content: center;
+	}
+
+	.container {
+
+		background: #fff;
+		width: 50%;
+		height: 50%;
+		font-size: 1.5vh;
+		text-align: center;
+		margin: auto;
+		align-content: center;
+	}
+
+	.container .header .subtitle {
+
+		font-size: 6vh;
+	}
+
+	.showcase {
+
+		display: none;
+	}
+
+	.circle {
+
+		display: none;
+	}
+}

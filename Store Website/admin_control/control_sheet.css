@@ -1,0 +1,14 @@
+body {
+
+	font-family: 'Segoe UI';
+
+}
+
+hr {
+
+	width: 80%;
+	padding-top: 10px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+}

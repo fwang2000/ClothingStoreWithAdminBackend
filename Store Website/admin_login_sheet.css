@@ -1,0 +1,171 @@
+body {
+
+	background-image: url('./images/loginbackground.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: all;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	margin: 0 auto;
+}
+
+@font-face {
+
+	font-family: title;
+	src: url(./fonts/title.ttf);
+}
+
+@font-face {
+
+	font-family: slogan;
+	src: url(./fonts/slogan.otf);
+}
+
+.container {
+
+	margin: 0 auto;
+	background: #fff;
+	height: 60vh;
+	width: 50vw;
+	padding-left: 20px;
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	box-shadow: 0 20px 10px 2px #888888; 
+}
+
+.logo {
+
+	width: 50%;
+	font-family: title;
+	font-size: 10vh;
+	text-align: center;
+	margin-right: 1vw;
+	padding-bottom: 1vh;
+}
+
+.header {
+
+	margin-top: 3vh;
+	margin-bottom: 1vh;
+}
+
+.header #i {
+
+	color: #94C5CC;
+
+}
+
+.logo img {
+
+	margin: 0 auto;
+	width: 20vh;
+	height: 20vh;
+}
+
+.login h1 {
+
+	text-align: center;
+	font-family: Calibri, sans-serif;
+	color: #000080;
+	margin-bottom: 3vh;
+	font-size: 2vw;
+}
+
+.login input[type='text'], input[type='password']{
+
+	margin-bottom: 3vh;
+	border-radius: 5px;
+	border:none;
+	background: #F5F5F5;
+	font-size: 2.5vh;
+	height: 20px;
+}
+
+.login input[type='text']:focus, input[type='password']:focus {
+
+	outline: none;
+	border: none;
+}
+
+.login input[type='submit'] {
+
+	font-size: 2vh;
+}
+
+.login button {
+
+	background:none;
+	border: none;
+	text-decoration: underline;
+	font-size: 2vh;
+
+}
+
+.login {
+
+	text-align: center;
+}
+
+@media screen and (max-aspect-ratio:4/3) {
+
+	body {
+
+		display: flex;
+		background-image: url(./images/loginbackground.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center center;
+		align-content: center;
+		justify-content: center;
+	}
+
+	.container {
+
+		margin: 0 auto;
+		background: #fff;
+		height: 70vh;
+		width: 70%;
+		border-radius: 10px;
+		display: inline-block;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		padding:0;
+		box-shadow: 0 20px 10px 2px #888888; 
+	}
+
+	.header {
+
+		padding-top: 4vh;
+	}
+
+	.logo img {
+
+		display: none;
+	}
+
+	.logo {
+
+		text-align: center;
+		width: 100%;
+		font-size: 8vh;
+	}
+
+	.login {
+
+		margin-bottom: 20px;
+		font-size: 2vh;
+	}
+
+	.login input[type='text'], input[type='password'] {
+
+		font-size: 2vh;
+	}
+
+	.login h1 {
+
+		font-size: 3vh;
+	}
+}
