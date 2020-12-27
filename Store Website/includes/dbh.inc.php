@@ -9,7 +9,7 @@
 
 		$dbServername = "localhost";
 		$dbUsername = "root";
-		$dbPassword = "Babalaba123!";
+		$dbPassword = <REDACTED>;
 		$dbName = "storeproject";
 
 		$conn = mysqli_connect($dbServername, $dbUsername, $dbPassword, $dbName);
