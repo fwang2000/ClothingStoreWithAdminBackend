@@ -1,6 +1,6 @@
 body {
 
-	background-image: url('./images/loginbackground.jpg');
+	background-image: url('../admin_images/loginbackground.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: all;
@@ -13,13 +13,13 @@ body {
 @font-face {
 
 	font-family: title;
-	src: url(./fonts/title.ttf);
+	src: url(../../fonts/title.ttf);
 }
 
 @font-face {
 
 	font-family: slogan;
-	src: url(./fonts/slogan.otf);
+	src: url(../../fonts/slogan.otf);
 }
 
 .container {
@@ -113,7 +113,7 @@ body {
 	body {
 
 		display: flex;
-		background-image: url(./images/loginbackground.jpg);
+		background-image: url(../admin_images/loginbackground.jpg);
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: center center;

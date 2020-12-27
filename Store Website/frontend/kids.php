@@ -3,13 +3,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="kidssheet.css">
+	<link rel="stylesheet" type="text/css" href="css/kidssheet.css">
 	<title>Avant I - Kids</title>
-	<script type="text/javascript" src="js/clothes_pages.js"></script>
+	<script type="text/javascript" src="../js/clothes_pages.js"></script>
 </head>
 <body>
 	<div class='top'>
-		<span id='home'><a href="site.php">AI</a></span>
+		<span id='home'><a href="../site.php">AI</a></span>
 		<span class="container">
 			<a href="men.php">Men</a>
 			<a href="women.php">Women</a>

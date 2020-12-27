@@ -105,7 +105,7 @@ body {
 	width:100%;
 	text-align: center;
 
-	background-image: url(./images/showcase.jpg);
+	background-image: url(frontend/images/showcase.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: bottom;
@@ -135,7 +135,7 @@ h1 {
 	height: 80vh;
 	width: 100%;
 	border: solid 5px #1B264F;
-	background-image: url(./images/blackshirt1.jpeg);
+	background-image: url(frontend/images/blackshirt1.jpeg);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -143,7 +143,7 @@ h1 {
 
 #men_item:hover {
 
-	background-image: url(./images/blackshirt2.jpg);
+	background-image: url(frontend/images/blackshirt2.jpg);
 	background-size: cover;
 	background-position: left;
 	background-repeat: no-repeat;
@@ -162,7 +162,7 @@ h1 {
 	height: 80vh;
 	width: 100%;
 	border: solid 5px #1B264F;
-	background-image: url(./images/whitedress1.jpg);
+	background-image: url(frontend/images/whitedress1.jpg);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -170,7 +170,7 @@ h1 {
 
 #women_item:hover {
 
-	background-image: url(./images/whitedress2.jpg);
+	background-image: url(frontend/images/whitedress2.jpg);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -193,7 +193,7 @@ h1 {
 
 	border: solid 5px #1B264F;
 	height: 30vh;
-	background-image: url(./images/bag.jpg);
+	background-image: url(frontend/images/bag.jpg);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -201,7 +201,7 @@ h1 {
 
 #acc1:hover {
 
-	background-image: url(./images/bag2.jpg);
+	background-image: url(frontend/images/bag2.jpg);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -211,7 +211,7 @@ h1 {
 
 	border: solid 5px #1B264F;
 	height: 30vh;
-	background-image: url(./images/shoe1.jpeg);
+	background-image: url(frontend/images/shoe1.jpeg);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -219,7 +219,7 @@ h1 {
 
 #acc2:hover {
 
-	background-image: url(./images/shoe2.jpeg);
+	background-image: url(frontend/images/shoe2.jpeg);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -274,7 +274,7 @@ h1 {
 	body {
 
 		display: flex;
-		background-image: url(./images/showcase.jpg);
+		background-image: url(frontend/images/showcase.jpg);
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: center center;

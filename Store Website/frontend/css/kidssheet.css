@@ -1,19 +1,19 @@
 @font-face {
 
 	font-family: collection;
-	src: url(./fonts/summercollection.ttf);
+	src: url(../../fonts/summercollection.ttf);
 }
 
 @font-face {
 
 	font-family: navFont;
-	src: url(./fonts/navtitle.ttf);
+	src: url(../../fonts/navtitle.ttf);
 }
 
 @font-face {
 
 	font-family: title;
-	src: url(./fonts/title.ttf);
+	src: url(../../fonts/title.ttf);
 }
 
 body {
@@ -109,7 +109,7 @@ body {
 
 	line-height: 40px;
 	height: 100vh;
-	background-image: url(./images/kidsbackground.jpg);
+	background-image: url(../images/kidsbackground.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -232,32 +232,32 @@ body {
 
 #grid #girls #girlshirt {
 
-	background-image: url(./images/girlshirt.jpg);\
+	background-image: url(../images/girlshirt.jpg);\
 }
 
 #grid #girls #leggings {
 
-	background-image: url(./images/girlpants.jpg);
+	background-image: url(../images/girlpants.jpg);
 }
 
 #grid #girls #hat {
 
-	background-image: url(./images/girlhat.jpg);
+	background-image: url(../images/girlhat.jpg);
 }
 
 #grid #boys #jeans {
 
-	background-image: url(./images/guyjeans.jpg);\
+	background-image: url(../images/guyjeans.jpg);
 }
 
 #grid #boys #boyshirt {
 
-	background-image: url(./images/boyshirt.jpg);\
+	background-image: url(../images/boyshirt.jpg);
 }
 
 #grid #boys #backpack {
 
-	background-image: url(./images/backpack.jpg);
+	background-image: url(../images/backpack.jpg);
 }
 
 #grid .itemtitle {

@@ -11,7 +11,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="admin_login_sheet.css?v=<?php echo time(); ?>">
+	<link rel="stylesheet" type="text/css" href="css/admin_login_sheet.css?v=<?php echo time(); ?>">
 	<title>Administration Login Page</title>
 	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
 </head>
@@ -21,10 +21,10 @@
 			<div class="header">
 			Avant <span id="i">I</span>
 			</div>
-			<img src="./images/user.png" width="118" height="128">
+			<img src="./admin_images/user.png" width="118" height="128">
 		</div>
 		<div class="login">
-			<form action="includes/login.php" method="post" autocomplete="off">
+			<form action="../includes/login.php" method="post" autocomplete="off">
 				<h1>Admin Login</h1>
 				<input type="text" id="fname" name="fname" placeholder="First Name"><br>		
 				<input type="text" id="lname" name="lname" placeholder="Last Name"> <br>

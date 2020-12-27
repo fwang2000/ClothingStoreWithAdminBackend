@@ -1,6 +1,6 @@
 <?php
 
-	include_once 'includes/dbh.inc.php';
+	include_once '../includes/dbh.inc.php';
 ?>
 
 <!DOCTYPE html>
@@ -9,7 +9,6 @@
 	<title>Account</title>
 </head>
 <body>
-
-	
+	<p>TO BE ADDED</p>	
 </body>
 </html>

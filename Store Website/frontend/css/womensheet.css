@@ -1,25 +1,25 @@
 @font-face {
 
 	font-family: mensTitle;
-	src: url(./fonts/menstitle.ttf);
+	src: url(../../fonts/menstitle.ttf);
 }
 
 @font-face {
 
 	font-family: collection;
-	src: url(./fonts/summercollection.ttf);
+	src: url(../../fonts/summercollection.ttf);
 }
 
 @font-face {
 
 	font-family: navFont;
-	src: url(./fonts/navtitle.ttf);
+	src: url(../../fonts/navtitle.ttf);
 }
 
 @font-face {
 
 	font-family: title;
-	src: url(./fonts/title.ttf);
+	src: url(../../fonts/title.ttf);
 }
 
 body {
@@ -113,7 +113,7 @@ body {
 
 	line-height: 40px;
 	height: 100vh;
-	background-image: url(./images/womensbackground.jpg);
+	background-image: url(../images/womensbackground.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: top;
@@ -236,47 +236,47 @@ body {
 
 #grid #tops #dress {
 
-	background-image: url(./images/dress.jpg);\
+	background-image: url(../images/dress.jpg);
 }
 
 #grid #tops #vest {
 
-	background-image: url(./images/vest.jpg);
+	background-image: url(../images/vest.jpg);
 }
 
 #grid #tops #crop {
 
-	background-image: url(./images/crop.jpg);
+	background-image: url(../images/crop.jpg);
 }
 
 #grid #bottoms #wideleg {
 
-	background-image: url(./images/wideleg.jpg);
+	background-image: url(../images/wideleg.jpg);
 }
 
 #grid #bottoms #skirt {
 
-	background-image: url(./images/skirt.jpg);
+	background-image: url(../images/skirt.jpg);
 }
 
 #grid #bottoms #sweatpants {
 
-	background-image: url(./images/sweatpants.jpg);
+	background-image: url(../images/sweatpants.jpg);
 }
 
 #grid #accessories #bracelet {
 
-	background-image: url(./images/bracelet.jpg);
+	background-image: url(../images/bracelet.jpg);
 }
 
 #grid #accessories #shoes {
 
-	background-image: url(./images/highshoes.jpg);
+	background-image: url(../images/highshoes.jpg);
 }
 
 #grid #accessories #bag {
 
-	background-image: url(./images/bag2.jpg);
+	background-image: url(../images/bag2.jpg);
 }
 
 #grid .itemtitle {

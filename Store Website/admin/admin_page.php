@@ -1,5 +1,5 @@
 <?php
-	require_once 'includes/dbh.inc.php';
+	require_once '../includes/dbh.inc.php';
 
 	session_start();
 	$row = $_SESSION['row'];
@@ -8,16 +8,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="admin_page_sheet.css?v=<?php echo time(); ?>">
+	<link rel="stylesheet" type="text/css" href="css/admin_page_sheet.css?v=<?php echo time(); ?>">
 	<title>Administration Dashboard</title>
 	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
 	<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-	<script type="text/javascript" src="js/admin_page_js.js"></script>
+	<script type="text/javascript" src="../js/admin_page_js.js"></script>
 </head>
 <body>
 	<div class='head'>
 		<span id="title">Administration Dashboard</span>
-		<a href="site.php"><span id="Home">AI</span></a>
+		<a href="../site.php"><span id="Home">AI</span></a>
 	</div>
 	<div class='nav'>
 		<?php 
@@ -28,7 +28,7 @@
 		?>
 		<span class="container">
 			<a onclick="window.open('admin_account.php', '_blank', 'height=500, width=378, scrollbars=yes');"><button id="Account">Account</button></a>
-			<form action="includes/logout.php" method="post"><button id="Logout">Log Out</button></form>
+			<form action="../includes/logout.php" method="post"><button id="Logout">Log Out</button></form>
 		</span>
 	</div>
 	<div id="grid">
@@ -82,7 +82,7 @@
 			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 		</div>
 		<div id="other">
-			<form action="includes/post_message.php" method="post">
+			<form action="../includes/post_message.php" method="post">
 				<span>To</span>
 				<input type="text" id="recipients" name='recipients' placeholder="...">
 				<hr>
@@ -106,17 +106,17 @@
 
 			<span class="popup" onclick="popup()">
 
-				<img src="images/settings.png" width="16" height="16" >
+				<img src="admin_images/settings.png" width="16" height="16" >
 				<span class="popuptext" id="poptext">
-					<a href="admin_control/add_emp.php" target="popup" onclick="window.open('admin_control/add_emp.php', 'name','width=300,height=400')"> Add Employee </a> <br>
-					<a href="admin_control/remove_emp.php" target="popup" onclick="window.open('admin_control/remove_emp.php', 'name', 'width=250, height=300')"> Remove Employee </a><br>
+					<a target="popup" onclick="window.open('admin_control/add_emp.php', 'name','width=300,height=400')"> Add Employee </a> <br>
+					<a target="popup" onclick="window.open('admin_control/remove_emp.php', 'name', 'width=250, height=300')"> Remove Employee </a><br>
 					<?php
 
 						if ($row['store_id'] == 1) {
 							
-							echo('<a href="admin_control/add_store.php" target="popup" onclick="window.open(\'admin_control/add_store.php\', \'name\', \'width=300, height=400\')">Add Store</a>');
+							echo('<a target="popup" onclick="window.open(\'admin_control/add_store.php\', \'name\', \'width=300, height=400\')">Add Store</a>');
 							echo "<br>";
-							echo('<a href="admin_control/remove_store.php" target="popup" onclick="window.open(\'admin_control/remove_store.php\', \'name\', \'width=300, height=400\')">Remove Store</a>');
+							echo('<a target="popup" onclick="window.open(\'admin_control/remove_store.php\', \'name\', \'width=300, height=400\')">Remove Store</a>');
 							echo "<br>";
 						}
 					?>

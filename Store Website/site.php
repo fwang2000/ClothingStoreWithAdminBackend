@@ -14,13 +14,13 @@
 		<div class="subtitle">Established 2020</div>
 		<nav class="navbar">
 			<ul>
-				<a href="men.php"><li> Men </li></a>
-				<a href="women.php"><li> Women </li></a>
-				<a href="kids.php"><li> Kids </li></a>
-				<a href="account.php"><li> Account </li></a>
+				<a href="frontend/men.php"><li> Men </li></a>
+				<a href="frontend/women.php"><li> Women </li></a>
+				<a href="frontend/kids.php"><li> Kids </li></a>
+				<a href="frontend/account.php"><li> Account </li></a>
 			</ul>
 			<br>
-			<a href="admin_login.php" id="admin_login"> Admin Login </a>
+			<a href="admin/admin_login.php" id="admin_login"> Admin Login </a>
 		</nav>
 	</div>
 	<div class="showcase">

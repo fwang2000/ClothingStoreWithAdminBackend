@@ -21,7 +21,7 @@ body button:active {
 	border: none;
 	width: 16px;
 	height: 16px;
-	background: url(./images/downarrow.png) no-repeat bottom;
+	background: url(./admin_images/downarrow.png) no-repeat bottom;
 	background-size: 8px;
 	outline: none;
 }

@@ -1,25 +1,25 @@
 @font-face {
 
 	font-family: mensTitle;
-	src: url(./fonts/menstitle.ttf);
+	src: url(../../fonts/menstitle.ttf);
 }
 
 @font-face {
 
 	font-family: collection;
-	src: url(./fonts/summercollection.ttf);
+	src: url(../../fonts/summercollection.ttf);
 }
 
 @font-face {
 
 	font-family: navFont;
-	src: url(./fonts/navtitle.ttf);
+	src: url(../../fonts/navtitle.ttf);
 }
 
 @font-face {
 
 	font-family: title;
-	src: url(./fonts/title.ttf);
+	src: url(../../fonts/title.ttf);
 }
 
 body {
@@ -113,7 +113,7 @@ body {
 
 	line-height: 40px;
 	height: 100vh;
-	background-image: url(./images/mensbackground.jpg);
+	background-image: url(../images/mensbackground.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: top;
@@ -236,47 +236,47 @@ body {
 
 #grid #tops #whiteshirt {
 
-	background-image: url(./images/whiteshirt/whiteshirt1.jpg);\
+	background-image: url(../images/whiteshirt/whiteshirt1.jpg);\
 }
 
 #grid #tops #blackshirt {
 
-	background-image: url(./images/blackshirt/blackshirt.jpg);
+	background-image: url(../images/blackshirt/blackshirt.jpg);
 }
 
 #grid #tops #purplebomber {
 
-	background-image: url(./images/purplebomber/purplebomber.png);
+	background-image: url(../images/purplebomber/purplebomber.png);
 }
 
 #grid #bottoms #blueshorts {
 
-	background-image: url(./images/blueshorts/blueshorts.jpg);\
+	background-image: url(../images/blueshorts/blueshorts.jpg);\
 }
 
 #grid #bottoms #swimtrunks {
 
-	background-image: url(./images/swimtrunks/swimtrunks.jpg);\
+	background-image: url(../images/swimtrunks/swimtrunks.jpg);\
 }
 
 #grid #bottoms #fleecejoggers {
 
-	background-image: url(./images/athleticpants.jpg);
+	background-image: url(../images/athleticpants.jpg);
 }
 
 #grid #accessories #watch {
 
-	background-image: url(./images/watch.jpg);
+	background-image: url(../images/watch.jpg);
 }
 
 #grid #accessories #shoes {
 
-	background-image: url(./images/shoe1.jpeg);
+	background-image: url(../images/shoe1.jpeg);
 }
 
 #grid #accessories #sunglasses {
 
-	background-image: url(./images/sunglasses.jpg);
+	background-image: url(../images/sunglasses.jpg);
 }
 
 #grid .itemtitle {

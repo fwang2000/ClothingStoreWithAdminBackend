@@ -1,5 +1,5 @@
 <?php
-	require_once '../includes/dbh.inc.php';
+	require_once '../../includes/dbh.inc.php';
 
 	session_start();
 	$row = $_SESSION['row'];
@@ -8,7 +8,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="control_sheet.css">
+	<link rel="stylesheet" type="text/css" href="../css/control_sheet.css">
 	<title></title>
 </head>
 <body>

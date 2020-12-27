@@ -1,5 +1,5 @@
 <?php
-	require_once 'includes/dbh.inc.php';
+	require_once '../includes/dbh.inc.php';
 
 	session_start();
 	$row = $_SESSION['row'];
@@ -14,7 +14,7 @@
 </head>
 <body>
 	<?php 
-		echo "<img src='./images/user.png' width='64' height='64'>";
+		echo "<img src='./admin_images/user.png' width='64' height='64'>";
 		echo "<div id=name>";
 		echo($row['first_name'] . " " . $row['last_name']);
 		echo "</div>";
